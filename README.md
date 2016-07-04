@@ -1,1 +1,1 @@
-# my solutions from acm.timus.ru
+# My solutions from acm.timus.ru
