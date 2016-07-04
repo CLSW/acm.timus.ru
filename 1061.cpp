@@ -66,7 +66,7 @@ int main(){
         if((i + 1) % 80 == 0)
             getchar();
 	}
-  	for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++i)
         p[i] += p[i - 1];
     for(int i = 0; i + k - 1 < n; ++i){
         ll sum = (p[i + k - 1] - (!i ? 0 : p[i - 1]));
