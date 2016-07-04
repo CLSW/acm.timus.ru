@@ -65,7 +65,7 @@ int main(){
             p[i] = inf;
         if((i + 1) % 80 == 0)
             getchar();
-	}
+    }
     for(int i = 0; i < n; ++i)
         p[i] += p[i - 1];
     for(int i = 0; i + k - 1 < n; ++i){
